@@ -1,19 +1,28 @@
 # Pantin — Game Design Document
 
+> Note : ce depot est un espace de documentation. Le vrai projet vit dans un
+> projet GameMaker (GML) sur machine locale ; les details de niveaux et
+> d'enigmes y sont definis, pas ici.
+
 ## Pitch
-Pantin est un jeu d'horreur en couloir : le joueur avance dans un seul decor qui se replie sur lui-meme, une fete foraine abandonnee la nuit d'Halloween. La progression melange plateforme legere et enigmes. Une marionnette de clown, le Pantin, suit le joueur a distance et se rapproche quand il reste trop longtemps au meme endroit.
+Pantin (nom de travail) est un jeu d'horreur de type couloir, melant plateforme
+et enigmes, pense pour Halloween. Le joueur incarne un petit clown maladroit en
+chiffon, dans un huis clos nocturne et suffocant.
 
 ## Intention
-Un jeu court, pense pour une soiree d'Halloween. La peur vient du rythme : avancer, resoudre vite, ne pas s'attarder. Le Pantin n'est presque jamais montre en entier, seulement des morceaux : une ombre, un fil, un rire.
+Une ambiance oppressante dans un espace clos, ou la maladresse du personnage est
+une contrainte de gameplay autant qu'un trait de caractere. Horreur d'atmosphere
+plutot que d'action.
 
-## Boucle de jeu
-Le joueur traverse des salles reliees par un couloir unique. Chaque salle contient une enigme a resoudre pour ouvrir la suivante. Pendant qu'il cherche, une jauge de presence monte ; si elle sature, le Pantin apparait et il faut fuir jusqu'a la prochaine zone sure.
+## Inspirations
+Little Nightmares pour le huis clos et la direction artistique inquietante, Ori
+et Hollow Knight pour la plateforme expressive et la lisibilite des mouvements.
 
-## Le Pantin
-Antagoniste. Marionnette articulee suspendue a des fils invisibles. Il ne court pas : il saccade, disparait entre deux images, et reapparait plus pres. Son theme sonore est une boite a musique qui ralentit quand il approche.
-
-## Structure
-Cinq salles, un final. Chaque salle a sa propre enigme et son propre piege. Le couloir change legerement a chaque passage pour qu'on ne soit jamais sur d'etre deja venu.
+## Technique
+Developpe sous GameMaker (langage GML), projet monte en local sur machine
+Windows. Integration de Claude Code via gm-cli pour assister le developpement.
 
 ## Statut
-Document vivant. Le level design et les enigmes sont detailles dans des documents dedies.
+Projet distinct de L'Addition (l'autre jeu). Le game design detaille (niveaux,
+enigmes, mecaniques precises) est tenu dans le projet GameMaker et n'est pas
+encore reporte dans ce depot.
